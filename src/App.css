@@ -1,0 +1,108 @@
+*{
+  padding:0;
+  margin: 0;
+}
+body{
+
+  background-image: linear-gradient(rgb(175, 175, 233),pink,rgb(209, 193, 193));
+} 
+
+ul{
+  list-style-type: none;
+  background-color:rgb(4, 4, 63);
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5%;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.7rem;
+  font-style:italic;
+}
+/* table css */
+h1{
+  margin: 40px 100px;
+  font-size: 2.5rem;
+  color: rgb(5, 5, 84);
+}
+.btn-add-std-1{
+  color: rgb(5, 5, 84);
+  height: 40px;
+  width: 250px;
+  font-size:20px ;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: aquamarine;
+  position: absolute;
+  right: 5rem;
+  top: 8rem;
+}
+.btn-edit{
+ border: none;
+ text-decoration: underline;
+ background: none;
+ color: blue;
+ font-size: 18px;
+}
+.table-con{
+width:90%;
+height: auto;
+background-color: white;
+margin-left: 5%;
+}
+table{
+  width: 100%;
+  text-align: center;
+}
+thead{
+  font-size: 22px;
+  border-bottom: 1px solid black;
+}
+td{
+  font-size: 18px;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+}
+th{
+  padding: 1rem;
+  border-bottom: 1px solid black;
+}
+/* Form */
+
+
+input{
+  width: 400px;
+  height: 50px;
+  margin: 5%;
+  background: none;
+  font-size: 18px;
+  align-items: center;
+}
+input:hover{
+  background-color: rgba(240, 255, 255, 0.945);
+}
+.btn-add-std{
+  color: rgb(5, 5, 84);
+  height: 40px;
+  width: 200px;
+  font-size:20px ;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: aquamarine;
+  position: absolute;
+  right: 5rem;
+  top: 30rem;
+}
+.btn-cancel-std{
+  color: rgb(5, 5, 84);
+  height: 40px;
+  width: 200px;
+  font-size:20px ;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: aquamarine;
+  position: absolute;
+  right: 20rem;
+  top: 30rem;
+}
